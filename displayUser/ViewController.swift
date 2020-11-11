@@ -24,19 +24,19 @@ class ViewController: UIViewController {
     @IBAction func fetchName(_ sender: Any) {
 
 
-        // Gets random 
+        // Gets random number
         let i = Int.random(in: 0 ... 17)
 
         var userArray: [User] = []
 
-        userArray.append(User.init(firstName: "Mallory", lastName: "Payne", age: 21))
+        userArray.append(User.init(firstName: "Mal", lastName: "Johnson", age: 21))
         userArray.append(User.init(firstName: "Brian", lastName: "Clow", age: 22))
         userArray.append(User.init(firstName: "Buster", lastName: "Bronco", age: 28))
-        userArray.append(User.init(firstName: "Matt", lastName: "Taylor", age: 25))
-        userArray.append(User.init(firstName: "Sonny", lastName: "Vigil", age: 21))
-        userArray.append(User.init(firstName: "Megan", lastName: "Ross", age: 20))
+        userArray.append(User.init(firstName: "Taylor", lastName: "Smith", age: 25))
+        userArray.append(User.init(firstName: "Sonny", lastName: "Smiles", age: 21))
+        userArray.append(User.init(firstName: "Ross", lastName: "White", age: 20))
         userArray.append(User.init(firstName: "Mark", lastName: "Rigby", age: 19))
-        userArray.append(User.init(firstName: "Lucas", lastName: "Mahugh", age: 23))
+        userArray.append(User.init(firstName: "Lucas", lastName: "Schmit", age: 23))
         userArray.append(User.init(firstName: "Val", lastName: "Mendez", age: 24))
         userArray.append(User.init(firstName: "Chase", lastName: "White", age: 23))
         userArray.append(User.init(firstName: "TJ", lastName: "Ortiz", age: 17))
